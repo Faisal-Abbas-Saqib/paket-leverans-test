@@ -1,16 +1,45 @@
-# React + Vite
+Gomoku Game - React with Storybook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎮 Welcome to the Gomoku game repository! This is a web-based implementation of the classic Gomoku (Five in a Row) game, built using React and Storybook for component testing and development.
 
-Currently, two official plugins are available:
+Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+♟️ Gomoku is a traditional two-player strategy board game. Players take turns placing pieces (usually black or white) on a 15x15 board. The objective is to get five of their pieces in a row, either horizontally, vertically, or diagonally.
 
-## React Compiler
+🖥️ This version is built with React and uses Storybook for visual component testing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Installation
 
-## Expanding the ESLint configuration
+🚀 To get the game running on your local machine, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the Repo
+
+First, clone the repository to your local machine.
+
+git clone https://github.com/Faisal-Abbas-Saqib/paket-leverans-test.git
+cd paket-leverans-test
+
+Install Dependencies
+
+Install all necessary dependencies using npm:
+
+npm install
+
+Run Locally
+
+After installing the dependencies, you can start the development server to run the game locally:
+
+npm start
+
+This will start the React app on http://localhost:3000
+. Open this URL in your browser to start playing the game.
+
+Storybook
+
+📚 Storybook is integrated into this project for component development and testing. To view the Storybook UI:
+
+Start the Storybook server:
+npm run storybook
+
+Then, open http://localhost:6006
+in your browser to interact with the isolated components of the app and see how they look and behave.
